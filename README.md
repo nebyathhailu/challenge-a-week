@@ -2,10 +2,10 @@
 A collaborative space where we tackle weekly challenges grounded in science, general knowledge and systems thinking.
 
 ## Table of Contents
-- [Installation] (##installation)
-- [Usage] (##usage)
-- [Features] (##features)
-- [Contributing] (##contributing)
+- Installation
+- Usage
+- Features
+- Contributing
 
 ## Installation
 To run this project
@@ -20,12 +20,12 @@ To run this project
 The website is updated weekly with new challenges solved by our team.
 
 ## Team Members
-- [Nebyat Hailu] (https://github.com/nebyathhailu)
-- [Rigbe Weleslasie] ()
-- [Kevine Umutoni] ()
-- [Fana Bezabih] ()
-- [Tirsit Berihu] ()
-- [Hewan Mehari] ()
+- Nebyat Hailu
+- Rigbe Weleslasie
+- Kevine Umutoni
+- Fana Bezabih
+- Tirsit Berihu
+- Hewan Mehari
   
 ## Contributing
 Want to contribute?
