@@ -2,9 +2,10 @@
 A collaborative space where we tackle weekly challenges grounded in science, general knowledge and systems thinking.
 
 ## Table of Contents
-- Installation
-- Features
-- Contributing
+- [Installation](#installation)
+- [Features](#features)
+- [Contributing](#features)
+- [Contributers](#contributers)
 
 ## Installation
 To run this project
@@ -14,6 +15,11 @@ To run this project
    cd challenge-a-week
    ```
 2. open index.html in your browser or use local server (e.g., liver server in VS code) for better navigation between pages.
+
+## Features
+- **Landing Page**: A welcoming homepage with an overview of the different weekly challnges.
+- **Weekly Challenge Pages**: Dedicated pages for each week.
+- **Responsive Design**: Optimized for different screen sizes and devices.
 
 ## Tech Stacks
 - HTML5
@@ -39,6 +45,11 @@ git push origin feature/your-feature-name
 
 ## Contributers
 - [Nebyat Hailu](https://github.com/nebyathhailu)
+- [Rigbe Weleslasie](https://github.com/RigbeWeleslasie)
+- [Kevine Umutoni](https://github.com/kevineumutoni)
+- [Hewan Mehari](https://github.com/hewanmehari)
+- [Tirsit Berihu](https://github.com/TirsitTeshome)
+- [Fana Bezabih](https://github.com/fanabezabih)
    
    
 
