@@ -38,7 +38,7 @@ git push origin feature/your-feature-name
 5. Open a pull request
 
 ## Contributers
-- [Nebyat Hailu] (https://github.com/nebyathhailu)
+- [Nebyat Hailu](https://github.com/nebyathhailu)
    
    
 
