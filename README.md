@@ -3,7 +3,6 @@ A collaborative space where we tackle weekly challenges grounded in science, gen
 
 ## Table of Contents
 - Installation
-- Usage
 - Features
 - Contributing
 
@@ -15,17 +14,11 @@ To run this project
    cd challenge-a-week
    ```
 2. open index.html in your browser or use local server (e.g., liver server in VS code) for better navigation between pages.
- 
-## Usage
-The website is updated weekly with new challenges solved by our team.
 
-## Team Members
-- Nebyat Hailu
-- Rigbe Weleslasie
-- Kevine Umutoni
-- Fana Bezabih
-- Tirsit Berihu
-- Hewan Mehari
+## Tech Stacks
+- HTML5
+- CSS3
+- JavaScript
   
 ## Contributing
 Want to contribute?
@@ -43,6 +36,9 @@ git commit -m "Add your message"
 git push origin feature/your-feature-name
 ```
 5. Open a pull request
+
+## Contributers
+- [Nebyat Hailu] (https://github.com/nebyathhailu)
    
    
 
