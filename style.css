@@ -38,7 +38,7 @@ body {
 
         font-size: 600%;
         align-items: center;
-        padding-top: 13%;
+        padding-top: 8%;
     }
 
     h2{
@@ -46,28 +46,35 @@ body {
     }
 
     p {
-        font-size:150;
+        margin-top: 2%;
+        font-size:110%;
+        font-size: 130%;
+        
+        color: #ffffff
     }
 }
-
+#ctp{
+    margin-top: 11%;
+    font-size: 140%;
+    
+}
 #bar {
+  
+    
     display: flex;
     margin: auto;
-    gap:7%;
-    /* padding-top: 1%; */
+    color:white;
+    width: 60%;
+    justify-content: space-between;
   
-    background-color: white;
-    width: 100%;
-    border: 1px solid black;
-    /* position: fixed; */
-  
-
-
 
     a {
         text-decoration: none;
-        color: black;
-
+        color:white;
+        font-size: 90%;
+        text-align: center;
+        margin: auto;
+        padding-top: 3%;
     }
 }
 
@@ -273,12 +280,67 @@ body {
     }
 }
 
+#project-title{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 100%;
+    padding-bottom: 0.5%;
+    background-color:#003729
+}
+
+#projects{
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    color: #003729;
+    font-size: 250%;
+    padding-bottom: 5%;
+
+    img{
+        height:60%;
+        width: 60%;
+    }
+
+    h2{
+        color: #003729;
+        font-size: 100%;
+        padding-bottom: 5%;
+        padding-top: 10%;
+    }
+
+    p{
+        font-size: 50%;
+    }
+}
+
+
+#project-detail{
+
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#team{
+    display: flex;
+    width: 70%;
+    margin: auto;
+
+    img{
+        height:100%;
+        width:20%
+    }
+}
+
 #feedback{
-    background-image: linear-gradient(#003729(112, 32, 108, 0.658), rgba(0, 0, 0, 0.4)), url(pics/earth2.jpg);
-    height: 85vh;
+    background-image: linear-gradient(rgba(0, 02, 0, 0.6), rgba(0, 0, 0, 0.6)), url(pics/foot.png);
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
- /* justify-content: space-between; */
     color: white;
     display: flex;
 
@@ -319,7 +381,7 @@ label{
 }
 
 #description{
-    width: 35%;
+    width: 30%;
     padding: 7%;
     /* border: 2px solid #003729; */
     
