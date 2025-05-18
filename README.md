@@ -43,13 +43,6 @@ git push origin feature/your-feature-name
 ```
 5. Open a pull request
 
-## Contributers
-- [Nebyat Hailu](https://github.com/nebyathhailu)
-- [Rigbe Weleslasie](https://github.com/RigbeWeleslasie)
-- [Kevine Umutoni](https://github.com/kevineumutoni)
-- [Hewan Mehari](https://github.com/hewanmehari)
-- [Tirsit Berihu](https://github.com/TirsitTeshome)
-- [Fana Bezabih](https://github.com/fanabezabih)
    
    
 
