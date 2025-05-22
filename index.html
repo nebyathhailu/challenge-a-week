@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Science project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -22,7 +23,7 @@
             <a href="#team">TEAM</a>
             <a href="#contact">CONTACT</a>
         </nav>
-        <h1>THINK | SOLVE | SHARE </h1>
+        <h1>THINK <span>|</span> SOLVE <span>|</span> SHARE </h1>
         <h2>Pushing limits through weekly challenges</h2>
         <p>Dive into weekly challenges designed to spark creativity,<br> solve real-world problems and connect with
             thinkers.</p>
@@ -35,8 +36,8 @@
     <div id="about">
         <div id="about-text">
             <h1> ABOUT US</h1>
-            <p>Welcome to The Big Minds
-                Your comprehensive hub <br>for exploring the world through a lens of</p>
+            <p>Welcome to The Big Minds 
+                Your comprehensive hub for exploring the world through a lens of</p>
             <h2> Systematic thinking, Technology and Science challenges.</h1>
                 <p> Our mission is to spark curiosity, inspire learning and empower you to
                     think critically and solve complex problems. we believe that knowledge should be an adventure</p>
@@ -102,46 +103,78 @@
 
 
     </div>
-    <div id="project-title">
-        <h1> WEEKLY PROJECTS</h1>
-    </div>
-
-
-    <div id="project-detail">
-        <div id="projects">
-            <h2> ATM Machine Prototype</h2>
-            <img src="pics/ATM.jpg">
-            <p>Click here to read more about the prototype</p>
-            
+    <div id="projects">
+        <div id="project-title">
+            <h1> WEEKLY PROJECTS</h1>
         </div>
 
-        <div id="projects">
-            <h2> Game Board</h2>
-            <img src="pics/ATM.jpg">
-            <p>Click here to read more about the card game</p>
+        <div class="slide">
+            <div class="swiper mySwiper">
+                <div class="container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="box"> 
+                                <img src="pics/ATM.jpg" alt="">
+                                <span><a href="ATM-prototype.html">ATM Machine Prototype</a></span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box"> 
+                                <img src="pics/AI.jpeg" alt="">
+                                <span>Game board</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box"> 
+                                <img src="pics/earth.jpg" alt="">
+                                <span>Nature</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="box"> 
+                                <img src="pics/High definition image of several brain synapses….jpeg" alt="">
+                                <span>Science</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        
         </div>
     </div>
-
-
-    <h1>MEET THE TEAM</h1>
+    
+    <h1 class="team-heading">MEET THE TEAM</h1>
     <div id="team">
         <div id="photos">
-            <img src="pics/fana.jpg">
+            <img src="pics/simplykevine (1).png">
+            <p>Kevine Umutoni</p>
+            <h4>" Optimism is the faith that leads to achievement. Nothing can be done   without hope and confidence."</h4>
         </div>
         <div id="photos">
-            <img src="pics/simplykevine.png">
+            <img src="pics/IMG_20240829_153147_954.jpg">
+            <p>Hewaan Mehari</p>
+              <h4>“When you have a dream, you've got to grab it and never let go.”</h4>
         </div>
         <div id="photos">
-            <img src="pics/hewaan.jpg">
+            <img src="pics/20250518_181239.jpg">
+            <p>Fana Bezabih</p>
+              <h4>“I am among those those who think that science has great beauty”</h4>
         </div>
         <div id="photos">
-            <img src="pics/dot (1).png">
+            <img src="pics/20250520_060916.jpg">
+            <p>Tirsit Berihu</p>
+              <h4>" Optimism is the faith that leads to achievement. Nothing can be done   without hope and confidence."</h4>
         </div>
         <div id="photos">
-            <img src="pics/dot (1).png">
+            <img src="pics/pic.jpg">
+            <p>Nebyat Hailu</p>
+              <h4>" Optimism is the faith that leads to achievement. Nothing can be done   without hope and confidence."</h4>
         </div>
         <div id="photos">
-            <img src="pics/dot (1).png">
+            <img src="pics/ATM.jpg">
+            <p>Rigbe Weleslasie</p>
+              <h4>" Optimism is the faith that leads to achievement. Nothing can be done   without hope and confidence."</h4>
         </div>
     </div>
 
@@ -178,8 +211,9 @@
             </form>
         </div>
     </div>
-
- 
+    <script src="
+    https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js "></script>
+<script src="index.js"></script>
 </body>
 
 </html>
