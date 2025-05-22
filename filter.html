@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,11 @@
     <link rel="stylesheet" href="filter.css">
     <script src="https://kit.fontawesome.com/1df1736bb2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="nav-bar">
         <div id="bar">
-            <p><a>Home</a></p>
-            <p><a href="#Projects">Projects</a></p>
-            <p>Team</p>
+           
         </div>
         <div>
             <h2> Weekly Challenge-Two</h2>
@@ -22,14 +22,14 @@
         </div>
     </div>
     <div id="second-bar">
-        <div id="center">
-            <p> Commentary</p>
-            <p>Opinion</p>
-            <p>Insight and Analysis</p>
-            <p> Blogs</p>
+        <div class="center">
+            <p><a>Home</a></p>
+            <p id="pro"><a href="#Projects">Projects</a></p>
+            <p>Team</p>
+            <p>Blog</p>
         </div>
         <div>
-            <p>Get our alerts</p>
+            <p id="alert">Get our alerts</p>
         </div>
     </div>
     <div id="sections">
@@ -101,8 +101,11 @@
                 everyday materials.
             </p>
         </div>
+        
     </div>
-         <div class="materials">
+    <h2 id="mat">Materials Used</h2>
+    <div class="materials">
+        
         <div class="scissors"><img src="Image/scissor.png" alt="Scissors"></div>
         <div class="box"><img src="Image/open-box.png" alt="Box"></div>
         <div class="glue"><img src="Image/glue.png" alt="Glue"></div>
@@ -110,12 +113,13 @@
         <div class="pencil"><img src="Image/pencil.png"></div>
     </div>
     <main>
+
         <div class="step-one">
-            <h3>STEP 1</h3>
+            <h3 id="step">STEP 1</h3>
             <div class="cutting">
                 <img src="Image/image2.png" alt="Cutting Step">
                 <p>Measuring and cutting the materials to attach them.
-</p>
+                </p>
             </div>
         </div>
         <div class="step-two">
@@ -138,5 +142,43 @@
             </div>
         </div>
     </main>
+
+    <div id="feedback">
+        <div id="description">
+            <h1>
+                Email Updates
+            </h1>
+            <p>
+                We promote excellence in science so that we can benefit humanity and tackle the biggest challenges of
+                our time
+            </p>
+        </div>
+
+        <div id="contact">
+
+            <form>
+                <h1>Contact Us</h1>
+                <P> Subscribe to our page to be updated with the latest news on solved challenges</P>
+
+                <label for="name"> First Name*</label><br>
+                <input type="name" placeholder="|"><br>
+
+                <label for="l-name"> Last Name*</label><br>
+                <input type="name" placeholder="|"><br>
+
+                <label for="email"> Email Address*</label><br>
+                <input type="email" placeholder="|"><br>
+
+                <button type="submit"> Send </button>
+
+
+
+            </form>
+        </div>
+    </div>
+    <script src="
+    https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js "></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
