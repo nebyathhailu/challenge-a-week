@@ -1,10 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
-/* *{
-    margin:0;
-    box-sizing: border-box;
-} */
+
 @font-face {
     font-family: poppins;
     src: url(poppins/Poppins-Regular.ttf);
@@ -23,11 +20,14 @@ html {
 
 body {
     font-family: pom;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #logo {
     background-image: linear-gradient(rgba(0, 02, 0, 0.6), rgba(0, 0, 0, 0.6)), url(pics/realistic-water-drop-with-ecosystem.jpg);
-    height: 95vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -153,7 +153,7 @@ body {
     display: flex;
     margin: auto;
     gap: 10px;
-    /* justify-content: space-between; */
+ 
     width: 70%;
 
     p {
@@ -218,9 +218,8 @@ body {
     }
 }
 
-
 #philosophy {
-    /* border: 1px solid #003729; */
+   
     padding-top: 7%;
     gap:5%;
     margin: auto;
@@ -294,12 +293,25 @@ body {
     justify-content: space-evenly;
     margin-top:2%;
     margin-bottom: 5%;
+    margin-left: 2%;
     gap: 10px;
     img{
         height:350px;
-        width:250px;
+        width:280px;
         border-radius: 20px;
     }
+}
+
+
+#photos- p{
+       margin-left: 30%;
+}
+#photos p{
+   margin-left: 30%;
+  
+}
+#photos h4{
+    width:90%
 }
 
 #feedback{
@@ -514,3 +526,294 @@ label{
     width: 100%;
 }
 }
+
+
+
+@media screen and (min-width:401px) and (max-width: 429px){
+#bar {
+  
+    
+    display: flex;
+    margin: auto;
+    color:white;
+    width: 90%;
+    justify-content: space-between;
+  
+
+    a {
+    
+        margin: auto;
+        padding-top: 9%;
+    }
+}
+
+    #about-img{
+        width: 60%;
+       margin-left: 19%;
+        margin-top: -2%;
+        margin-bottom: 19%;
+        img{
+            width:30%;
+        }
+    }
+    #about{
+        flex-direction: column;
+        width: 100%;
+
+        #about-text{
+            width:100%;
+        }
+        p{
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            padding-top: 5%;
+        }
+        h2{
+            width: 100%;
+            text-align: center;
+        }
+    }
+  #offer{
+    width: 140%;
+   
+    flex-direction: column;
+    margin-left:15% ;
+  } 
+
+#philosophy, #join-us{
+    width: 100%;
+    padding: 1%;
+    margin-top: 5%;
+  }
+
+#projects{
+    flex-direction: column;
+  }
+
+.slide{
+    width: 100%;
+    margin-left: 12%;
+  }
+#team{
+flex-direction: column;
+margin-left: 17%;
+}
+
+#feedback{
+    flex-direction: column;
+    height: auto;
+    padding: 8%;
+
+  }
+ #description{
+    width: 100%;
+}  #contact{
+    width: 90%;
+    margin: auto;
+    height: auto; 
+    padding-bottom: 20%;
+    p{
+        width: 100%;
+    }
+ }
+ #project-title{
+    margin-left: 10%;
+  }
+
+
+
+}
+@media only  screen  and (max-width: 430px){
+
+#bar {
+  
+    
+    display: flex;
+    margin: auto;
+ 
+    color:white;
+    width: 90%;
+    justify-content: space-between;
+  
+
+    a {
+        gap:3%;
+    
+        margin: auto;
+        padding-top: 9%;
+    }
+}
+
+
+#about-img{
+        width: 60%;
+       margin-left: 19%;
+        margin-top: -2%;
+        margin-bottom: 19%;
+        img{
+            width:30%;
+        }
+    }
+
+   #about{
+        flex-direction: column;
+        width: 100%;
+
+        #about-text{
+            width:100%;
+        }
+        p{
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            padding-top: 5%;
+        }
+        h2{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    #logo {
+
+        height: 120vh;
+    }
+#offer{
+    width: 140%;
+   
+    flex-direction: column;
+    margin-left:15% ;
+  } 
+#philosophy, #join-us{
+    width: 100%;
+    padding: 1%;
+    margin-top: 5%;
+  }
+
+  #projects{
+    flex-direction: column;
+  }
+
+.slide{
+    width: 100%;
+    margin-left: 12%;
+  }
+#team{
+flex-direction: column;
+margin-left: 17%;
+}
+
+#feedback{
+    flex-direction: column;
+    height: auto;
+    padding: 8%;
+
+  }
+ #description{
+    width: 100%;
+}  #contact{
+    width: 90%;
+    margin: auto;
+    height: auto; 
+    padding-bottom: 20%;
+    p{
+        width: 100%;
+    }
+ }
+ #project-title{
+    margin-left: 10%;
+  }
+
+
+
+}
+
+
+@media screen and (min-width:431px) and (max-width: 800px){
+#logo{
+    width: 130vw;
+}
+
+#about{
+        flex-direction: column;
+        width: 100%;
+
+        #about-text{
+            width:100%;
+        }
+        p{
+            width: 100%;
+        }
+        h1{
+            text-align: center;
+            padding-top: 5%;
+        }
+        h2{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    #about-img{
+        width: 120%;
+       margin-left: -14%;
+        margin-top: -30%;
+        margin-bottom: 40%;
+        img{
+            width:30%;
+        }
+    }
+
+
+#offer{
+    width: 105%;
+   
+  
+
+  } 
+
+#philosophy, #join-us{
+    width: 100%;
+    padding: 1%;
+    margin-top: 5%;
+  }
+
+
+.slide{
+    width: 100%;
+    margin-left: 12%;
+  }
+
+  #projects{
+    flex-direction: column;
+  }
+
+#contact{
+    width: 90%;
+    margin: auto;
+    height: auto; 
+    padding-bottom: 20%;
+    p{
+        width: 100%;
+    }
+ }
+#feedback{
+    width:120vw;
+   
+
+}
+#team{
+
+     flex-direction: column;
+     margin-left: 25%;
+      img{
+        height:400px;
+        width:360px;
+        border-radius: 20px;
+    }
+}
+
+
+}
+
