@@ -60,7 +60,9 @@ body {
 }
 #bar {
   
-    
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+    padding-bottom: 1%;
     display: flex;
     margin: auto;
     color:white;
@@ -331,8 +333,8 @@ body {
     margin: auto;
 
     img{
-        height:100%;
-        width:20%
+        height:150%;
+        width:70%
     }
 }
 
