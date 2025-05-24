@@ -3,7 +3,9 @@
     src: url(Ysabeau_Infant/YsabeauInfant-VariableFont_wght.ttf);
 }
    
-
+h1{
+    margin-top: 10%;
+}
 
 body{
     width: 90%;
@@ -18,13 +20,37 @@ html{
 #nav-bar{
 display: flex;
 justify-content: space-between;
+
 }
 
+
+#nav-bar button{
+width:150%;
+height:50%;
+border-radius: 35px;
+margin-top: 30%;
+background-color: #064938;
+color: white;
+border: none;
+cursor: pointer;
+
+}
+
+#card{
+    padding-left: 55%;
+   margin-top: -25%;
+   width:30%;
+}
 #bar{
+  
     padding-top: 2%;
     display: flex;
     justify-content: space-between;
     gap:35%;
+    a{
+          text-decoration: none;
+          color: #064938;
+    }
 }
 
 #second-bar{
@@ -50,29 +76,37 @@ justify-content: space-between;
     padding-top: -1%;
     line-height: 0.9;
     border-bottom: 5px solid #064938;
-    
+
+
+}
+p{
+     
+    text-align: center;
+
 }
 
 #title{
     padding-top: 2%;
     line-height: 0.6;
 
+
+}
+#title p{
+     margin-left: -83%;
 }
 
 #section{
     width: 100%;
      padding-top: 6%;
-     img{
-        height:90%;
-        width:40%;
-     }
-}
+
+    }
+
 
 #sections{
     display: flex;
-    /* justify-content: space-between; */
+ 
     padding-top: 3%;
-    /* margin: auto; */
+
 
 
     img{
@@ -86,8 +120,7 @@ justify-content: space-between;
     h1{
         text-align: center;
     }
-    width: 90%;
-    /* text-align: justify; */
+    width: 100%;
     margin: auto;
     padding-right: 25%;
     img{
@@ -99,7 +132,7 @@ justify-content: space-between;
 #icons {
     width:20%;
     color: black;
-    background-color:#cad8d4;
+    background-color:white;
     padding-right: 30%;
     flex-direction: column;
     font-size: 20px;
@@ -123,15 +156,38 @@ justify-content: space-between;
     font-weight: bold;
 }
 
-#pics{
+#pics img{
+    height:40%;
+}
+ /* #pics{
+    width: 140%;
+    margin-left: 9%;
+    margin-top: 3%;
+    gap: 10%;
+ } */
+ #pics{
     display: flex;
     height:30%;
-    width:50%;
+    /* width:100%; */
+    margin-left: 9%;
+    gap: 5%;
+ }
+ #iconone{
+    width:60%
+ }
+#pics p{
+   margin-left: 3%;
+    width: 50%;
+   
+}
+#icon{
+    width: 5%;
+    padding-top: 2%;
 }
 
 #feedback{
     display: flex;
-    margin: auto;
+padding-left: 15%;
     width:70%;
     gap:3%;
     padding-bottom: 3%;
@@ -140,17 +196,20 @@ justify-content: space-between;
 }
 
 #title-2{
-    /* margin: auto;
-     */
-     padding-left: 15%;
+
+     padding-left: 30%;
     width:32%;
     padding-bottom: 1%;
     padding-top: 3%;
     h2{
 font-size: 200%;
+width: 150%;
+margin-left: -6%;
     }
 }
-
+.concerns{
+    margin-left: 4%;
+}
 #sentence{
     background-color: #003729;
     width:25%;
@@ -161,6 +220,18 @@ font-size: 200%;
         height: 25%;
         width:20%;
     }
+}
+#win{
+    width:8%;
+  margin-left: 30%;
+  margin-top: -1%;
+}
+.win{
+    display: flex;
+    gap:1%;
+    margin-top:5%;
+ margin-left: 5%;
+  
 }
 
 #sentence-2{
@@ -177,8 +248,11 @@ border: 1px solid #003729;
 #conclusion{
     width: 68%;
     margin: auto;
+    padding-top: 4%;
 }
-
+#cards{
+   padding-left: 60%;
+}
 #arrow{
     width:70%;
     margin: auto;
@@ -217,4 +291,41 @@ width: 80%;
         height: 25%;
         width:20%;
     }
+}
+#description{
+    padding-left: 3%;
+}
+#feedback-{
+   background-image: linear-gradient(rgba(0, 02, 0, 0.6), rgba(0, 0, 0, 0.6)), url(pics/foot.png);
+   
+    height: 80vh;
+    width:100vw;
+    margin-left: -7%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+}
+#contact{
+    border: 2px solid #003729;
+    padding-left: 5%;
+    margin-left: 10%;
+    margin-top: 7%;
+    height:69vh;
+    width: 30%;
+    background-color: #003729;
+
+    input{
+        font-size: 130%;
+        margin-bottom: 2%;
+
+    }
+p{
+    font-size: 130%;
+    width: 70%;
+    padding-bottom: 3%;
+}
+}
+#intro h2{
+    margin-left: 18%;
 }
