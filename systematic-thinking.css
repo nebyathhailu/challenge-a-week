@@ -29,7 +29,7 @@ h1{
     height:60vh;
     justify-items: center;
     align-content: center;
-    background-image: linear-gradient(rgba(0, 02, 0, 0.6), rgba(0, 0, 0, 0.6)), url(pics/earth.jpg);
+    background-image: linear-gradient(rgba(0, 02, 0, 0.6), rgba(0, 0, 0, 0.6)), url('pics/philosophy.png');
     background-repeat: no-repeat;
     background-size: cover;
     h1{
